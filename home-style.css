@@ -1,0 +1,53 @@
+body{
+  background-color: #f3f6e3;
+  text-align: center;
+}
+header, main{
+  margin-top: 90px;
+}
+@font-face {
+  font-family: galindo;
+  src: url(../fonts/Galindo-Regular.ttf);
+}
+.header-name{
+  font-family: galindo;
+  font-size: 90px;
+  color: #304f7a;
+}
+.main-text{
+  font-family: galindo;
+  font-size: 40px;
+}
+nav{
+  background-color: #fabc02;
+}
+li{
+  display: inline-block;
+  padding: 30px;
+}
+a{
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-size: 30px;
+}
+a:hover{
+  font-weight: bold;
+}
+.img-container{
+  display: flex; 
+  gap: 200px;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+}
+.img-g{
+  position: absolute;
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  z-index: 1; 
+}
+

@@ -1,0 +1,60 @@
+body{
+  background-color: #f3f6e3;
+  text-align: center;
+}
+header, main{
+  text-align: center;
+  margin-top: 90px;
+}
+@font-face {
+  font-family: galindo;
+  src: url(../fonts/Galindo-Regular.ttf);
+}
+.header-name{
+  font-family: galindo;
+  font-size: 90px;
+  color: #304f7a;
+}
+nav{
+  background-color: #fabc02;
+}
+nav>li{
+  display: inline-block;
+  padding: 30px;
+}
+li>a{
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-size: 30px;
+}
+li>a:hover{
+  font-weight: bold;
+}
+div:not(.social-icons){
+  background-color: #304f7a;
+  color: #f3f6e3;
+  width: 900px;
+  height: 700px;
+  margin: auto;
+}
+.social-icons{
+  padding-top: 30px;
+  border-top: 3px solid #f3f6e3;
+}
+p{
+  font-size: 40px;
+  
+}
+i{
+  font-size: 110px;
+}
+.fa-instagram{
+  margin-right: 100px;
+}
+.fa-whatsapp{
+  margin-left: 100px;
+}
+.dok-page{
+  color: antiquewhite;
+}
